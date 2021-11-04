@@ -1,9 +1,9 @@
-const ScoreBoard = ({score}) => {
-    return (
-        <div className="score-board">
-            <h2>{score}</h2>
-        </div>
-    )
+const ScoreBoard = ({ score }) => {
+  return (
+    <div className="score-board">
+      <h2>{score}</h2>
+    </div>
+  )
 }
 
-export default ScoreBoard;
+export default ScoreBoard
